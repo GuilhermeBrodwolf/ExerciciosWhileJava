@@ -1,0 +1,76 @@
+package javawhile;
+
+/**
+ *
+ * @author guilherme_nones
+ */
+import javax.swing.JOptionPane;
+
+public class JavaWhile {
+
+    public static void main(String[] args) {
+        /*
+        int soma = 0;
+        char op = JOptionPane.showInputDialog("Deseja somar?").charAt(0);
+        
+        while(op == 's'){
+            soma = soma + 1;
+            op = JOptionPane.showInputDialog("Deseja continuar somando?").charAt(0);
+        }
+        
+        JOptionPane.showInputDialog(null, "Soma: " + soma);
+        */
+        
+        
+        /*
+        int chope = 0;
+        char maisChop = JOptionPane.showInputDialog("Deseja beber um chope?").charAt(0);
+
+        if (maisChop == 's') {
+
+            while (maisChop == 's') {
+                maisChop = JOptionPane.showInputDialog("Deseja beber mais um chope?").charAt(0);
+                if (maisChop == 's') {
+                    JOptionPane.showMessageDialog(null, "Mais um chope!");
+                    chope = chope + 1;
+
+                } else if (maisChop == 'n') {
+                    JOptionPane.showMessageDialog(null, "Desejamos uma boa noite!");
+
+                }
+            }
+            JOptionPane.showMessageDialog(null, "Você bebeu " + chope + " chopes");
+
+        }else{
+            JOptionPane.showMessageDialog(null, "Desejamos uma boa noite!");
+        }
+        */
+ 
+ 
+ 
+        /*
+        int idade = 1, mediaIdade = 0, quantidadePessoas = 0, somaIdade = 0;
+
+        while (idade != 0) {
+
+            idade = Integer.parseInt(JOptionPane.showInputDialog("Informe sua idade"));
+            
+            if (idade > 0) {
+
+                quantidadePessoas++;
+                
+                somaIdade += idade;  
+
+            }
+
+        }
+        if(quantidadePessoas >= 1){
+             mediaIdade = somaIdade / quantidadePessoas;
+             JOptionPane.showMessageDialog(null, "a média da idade das pessoas é: " + mediaIdade);
+        }else{
+            JOptionPane.showMessageDialog(null, "Você não digitou nem uma idade");
+
+        }
+        */       
+    }
+}
